@@ -19,6 +19,7 @@ procedure MathGame is
 begin
    Put_Line("two player blackjack with no dealer");
    Put_Line("note: in this impementation, aces cannot be one. thay must be 11.");
+   Put_Line("note: thare is still a bug with hitting more then once. so if you can, hit once");
    loop
       Put_Line("player 1 cards: ");
       for P in Integer range 0 .. Temp2 loop
